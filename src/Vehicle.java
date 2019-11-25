@@ -6,13 +6,9 @@ public abstract class Vehicle {
 	private int kilometers;
 	
 	// constructor
-	public Vehicle(String brand) {
-		this.setBrand(brand);
-	}
-		
 	public Vehicle(String brand, int kilometers) {
 		this.setBrand(brand);
-		this.setKilometers(0);
+		this.setKilometers(kilometers);
 	}
 	
 	// getter
